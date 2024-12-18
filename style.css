@@ -4,9 +4,16 @@
 
 }
 
-nav{
+body{
+    scroll-behavior: smooth;
+}
+
+nav {
     background-color: #fff;
     padding-block: 1rem;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
 }
 
 .nav-content{
@@ -64,6 +71,7 @@ nav{
 }
 /* styling for hero section */
 .hero-sec {
+    padding-top: 5rem;
     background:linear-gradient(90deg, #f3f7f7 67%, #034e52 33%);
 }
 
@@ -289,8 +297,89 @@ select {
         padding-bottom: 1rem;
         text-transform: capitalize;
     }
+    /* responsive styling with media query */
+    @media(min-width: 320px) and (max-width: 460px){
+     .nav-content{
+        width: calc(100% - 30px );
+     }
+
+     .nav-right{
+        display: none ;
+
+     }
+     .hero-sec{
+        background: #034e52;
+     }
+     .hero{
+        width: calc(100% - 30px);
+        flex-direction: column;
+
+     }
+     .hero-content{
+        width: 100%;
+
+     }
+     .hero-btn > button{
+        background-color: #fff;
+        color: #034e52;
+
+     }
+     .hero-content > h1{
+        width: 100%;
+
+     }
+     .hero-image{
+        width: 100%;
+     }
+     .service-card-wrapper{
+        flex-direction: column;
+        max-width: 320px;
+        margin: auto;
+        gap: 2rem;
+     }
+     .service-card{
+        width: 100%;
+        padding-inline: 0;
+
+     }
+     .discover > h1{
+        font-size: 2.2rem;
+
+     }
+     .discover-doctor-wrapper{
+        width: calc(100% - 30px);
+        grid-template-columns: 1fr;
+        
+     }
+
+
+
+
+
+    .long-box {
+        display: flex;
+        margin-left: 100px;
+        justify-content: space-evenly;
+        margin: auto;
+        position: relative;
+        padding: 15px;
+        margin-top: 100px;
+        max-width: 800px;
+        border: 4px solid red;
+        
+
+
+
+    }
 
     
 
 
+
     
+
+    }
+        
+    }
+
+
