@@ -1,284 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doctor app</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- nav bar -->
-  <nav>
-       <div class="nav-content gen-layout">
+    <nav>
+      <div class="nav-content gen-layout">
         <h1>docto<span>r</span></h1>
 
         <!-- hamburger code will be here -->
-         <div class="nav-right">
-            <div class="nav-items">
-                <a href="#">home</a>
-                <a href="#">about us</a>
-                <a href="#services">services</a>
-                <a href="#findDoctor">find a Doctor</a>
-                <a href="#">contact</a>
-                <button class="btn-btn">book an appointment</button>
-            </div>
-         </div>
-    </div>
- </nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+
+        <div class="nav-right">
+          <div class="nav-items">
+            <a href="#">home</a>
+            <a href="#">about us</a>
+            <a href="#services">services</a>
+            <a href="#findDoctor">find a Doctor</a>
+            <a href="#">contact</a>
+            <button class="btn-btn">book an appointment</button>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- hero section -->
-     <section class="hero-sec">
-        <div class="hero gen-layout">
-            <!-- hero content -->
-            <div class="hero-content">
-                <h1>find a doctor & Book online</h1>
-                <p>medical  Recover is most focused in helping you Discover your Most Beautiful.</p>
+    <section class="hero-sec">
+      <div class="hero gen-layout">
+        <!-- hero content -->
+        <div class="hero-content">
+          <h1>find a doctor & Book online</h1>
+          <p>
+            medical Recover is most focused in helping you Discover your Most
+            Beautiful.
+          </p>
 
-                <div class="hero-btn">
-                    <button class="btn-btn">take an appointment</button>
-                    <button class="btn-btn">learn more</button>
-                </div>
-
-            </div>
-            <!-- hero image -->
-             <div class="hero-image">
-                <img src="images/black fine doc.png" alt="doctor">
-             </div>
-        </div>
-     </section>
-
-     <!-- main section -->
-      <main>
-<!-- service section -->
-    <section>
-    <div class="services gen-layout">
-        <div class="selecting-input-option">
-        <select>
-            <option>select date & time</option>
-            <option>west african time</option>
-            <option>asian time</option>
-
-        </select>
-        <div class="search-input">
-            <input type="search" placeholder="search doctors">
-            <span>icn</span>
-
-
-        </div>
-
-        <button>search</button>
-
-        </div>
-        <div class="service-card-wrapper" id="services">
-             <!-- first-service-card -->
-         <div class="service-card">
-            <span>icn</span>
-
-            <h2>24 hours services</h2>
-            <p>you can get help from us at anytime of the day. our skilled experienced team and good methods of treatment make us proud</p>
-         </div>
-
-         <!-- second-service-card -->
-          <div class="service-card">
-            <span>icn</span>
-
-            <h2>qualified doctor</h2>
-            <p>you can get help from us at anytime of the day. our skilled experienced team and good methods of treatment make us proud</p>
-
+          <div class="hero-btn">
+            <button class="btn-btn">take an appointment</button>
+            <button class="btn-btn">learn more</button>
           </div>
-          <!-- third-service-card -->
-          <div class="service-card">
-            <span>icn</span>
-
-            <h2>operation theater</h2>
-            <p>you can get help from us at anytime of the day. our skilled experienced team and good methods of treatment make us proud</p>
-         </div>
-          <!-- forth-service-card -->
-         <div class="service-card">
-            <span>icn</span>
-
-            <h2>emergency care</h2>
-            <p>you can get help from us at anytime of the day. our skilled experienced team and good methods of treatment make us proud</p>
-         </div>
         </div>
-       
-    </div>
-
+        <!-- hero image -->
+        <div class="hero-image">
+          <img src="images/black fine doc.png" alt="doctor" />
+        </div>
+      </div>
     </section>
 
-<!-- discover doctors -->
-      <section class="discover-doctors" id="findDoctor">
-        <div class="discover">
-               <h4>find our<span>doctor</span></h4>
-               <h1>discover our doctor</h1>
-        
+    <!-- main section -->
+    <main>
+      <!-- service section -->
+      <section>
+        <div class="services gen-layout">
+          <div class="selecting-input-option">
+            <select>
+              <option>select date & time</option>
+              <option>west african time</option>
+              <option>asian time</option>
+            </select>
+            <div class="search-input">
+              <input type="search" placeholder="search doctors" />
+              <span>icn</span>
+            </div>
 
-        <div class="discover-doctor-wrapper gen-layout">
+            <button>search</button>
+          </div>
+          <div class="service-card-wrapper" id="services">
+            <!-- first-service-card -->
+            <div class="service-card">
+              <span>icn</span>
 
-            <!-- first discover doctor card -->
-             <div class="doctor-card">
-                <img src="images/doctorguy img.png" alt="doctor">
+              <h2>24 hours services</h2>
+              <p>
+                you can get help from us at anytime of the day. our skilled
+                experienced team and good methods of treatment make us proud
+              </p>
+            </div>
 
-                <div class="doctor-card-content">
-                    <h3>dr. esther howard</h3>
+            <!-- second-service-card -->
+            <div class="service-card">
+              <span>icn</span>
 
-                    <ul>
-                        <li>dentistry</li>
-                        <li>420 EGP</li>
-                        <li>1901, shiloh hawaii</li>
+              <h2>qualified doctor</h2>
+              <p>
+                you can get help from us at anytime of the day. our skilled
+                experienced team and good methods of treatment make us proud
+              </p>
+            </div>
+            <!-- third-service-card -->
+            <div class="service-card">
+              <span>icn</span>
 
-                    </ul>
-                </div>
-                </div>
+              <h2>operation theater</h2>
+              <p>
+                you can get help from us at anytime of the day. our skilled
+                experienced team and good methods of treatment make us proud
+              </p>
+            </div>
+            <!-- forth-service-card -->
+            <div class="service-card">
+              <span>icn</span>
 
-                <!-- second discover doctor card -->
-                <div class="doctor-card">
-                    <img src="images/doctorguy img.png" alt="doctor">
-    
-                    <div class="doctor-card-content">
-                        <h3>dr. esther howard</h3>
-    
-                        <ul>
-                            <li>dentistry</li>
-                            <li>420 EGP</li>
-                            <li>1901, shiloh hawaii</li>
-    
-                        </ul>
-                    </div>
-                    </div>
-                    <!-- third discover doctor card -->
-                    <div class="doctor-card">
-                        <img src="images/doctorguy img.png" alt="doctor">
-        
-                        <div class="doctor-card-content">
-                            <h3>dr. esther howard</h3>
-        
-                            <ul>
-                                <li>dentistry</li>
-                                <li>420 EGP</li>
-                                <li>1901, shiloh hawaii</li>
-        
-                            </ul>
-                        </div>
-                        </div>
-                        <!-- forth discover doctor card -->
-                        <div class="doctor-card">
-                            <img src="images/doctorguy img.png" alt="doctor">
-            
-                            <div class="doctor-card-content">
-                                <h3>dr. esther howard</h3>
-            
-                                <ul>
-                                    <li>dentistry</li>
-                                    <li>420 EGP</li>
-                                    <li>1901, shiloh hawaii</li>
-            
-                                </ul>
-                            </div>
-                            </div>
-                            <!-- fifth discover doctor card -->
-                            <div class="doctor-card">
-                                <img src="images/doctorguy img.png" alt="doctor">
-                
-                                <div class="doctor-card-content">
-                                    <h3>dr. esther howard</h3>
-                
-                                    <ul>
-                                        <li>dentistry</li>
-                                        <li>420 EGP</li>
-                                        <li>1901, shiloh hawaii</li>
-                
-                                    </ul>
-                                </div>
-                                </div>
-                                <!-- sixth discover doctor card -->
-                                <div class="doctor-card">
-                                    <img src="images/doctorguy img.png" alt="doctor">
-                    
-                                    <div class="doctor-card-content">
-                                        <h3>dr. esther howard</h3>
-                    
-                                        <ul>
-                                            <li>dentistry</li>
-                                            <li>420 EGP</li>
-                                            <li>1901, shiloh hawaii</li>
-                    
-                                        </ul>
-                                    </div>
-                                    </div>
-
-             </div>
-
-
+              <h2>emergency care</h2>
+              <p>
+                you can get help from us at anytime of the day. our skilled
+                experienced team and good methods of treatment make us proud
+              </p>
+            </div>
+          </div>
         </div>
-
       </section>
 
-      <!--choose best container -->
-      <section class="container">
-        <div class="long-box">
-            <div class="">
-                <h1>10 m</h1>
-                <p>happy customers</p>
-                </div>
+      <!-- discover doctors -->
+      <section class="discover-doctors" id="findDoctor">
+        <div class="discover">
+          <h4>find our<span>doctor</span></h4>
+          <h1>discover our doctor</h1>
 
-                <div class="">
-                    <h1>05 m</h1>
-                    <p>monthly visitors</p>
-                </div>
+          <div class="discover-doctor-wrapper gen-layout">
+            <!-- first discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
 
-               <div class="">
-                <h1>234</h1>
-                <p>countries worldwide</p>
-               </div>
-            
-               <div class="">
-                <h1>4.3</h1>
-                <p>Trust pilot</p>
-               </div>
-        </div>
-    </section>
-            
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
 
-        
-
-        <!-- choose best sec -->
-         <section class="choose-sec">
-            <div class="choose gen-layout">
-                <!-- choose image -->
-                 <div class="choose-image">
-
-
-
-                 </div>
-
-
-
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
             </div>
 
+            <!-- second discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
 
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
 
-         </section>
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
+            </div>
+            <!-- third discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
 
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
 
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
+            </div>
+            <!-- forth discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
 
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
+
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
+            </div>
+            <!-- fifth discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
+
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
+
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
+            </div>
+            <!-- sixth discover doctor card -->
+            <div class="doctor-card">
+              <img src="images/doctorguy img.png" alt="doctor" />
+
+              <div class="doctor-card-content">
+                <h3>dr. esther howard</h3>
+
+                <ul>
+                  <li>dentistry</li>
+                  <li>420 EGP</li>
+                  <li>1901, shiloh hawaii</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="long-box gen-layout">
+          <img src="" alt="" />
+
+          <div class="stats">
+            <div class="stats-card">
+              <h1>10 m</h1>
+              <p>happy customers</p>
+            </div>
+
+            <div class="stats-card">
+              <h1>05 m</h1>
+              <p>monthly visitors</p>
+            </div>
+
+            <div class="stats-card">
+              <h1>234</h1>
+              <p>countries worldwide</p>
+            </div>
+
+            <div class="stats-card">
+              <h1>4.3</h1>
+              <p>Trust pilot</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- choose best sec -->
+
+      <section class="choice-sec">
+        <div class="female-doctor-wrap gen-layout">
+          <div class="female-side">
+            <h1>choose best choose us</h1>
+            <p>
+              elevate your experience and outcomes with the best Quality and
+              service...
+            </p>
+          </div>
+
+          <div class="female-doc">
+            <h3>ChOOSE US</h3>
+            <h1>Why Choose Us</h1>
+            <ul>
+              <li>saefty is our fisrt piroity</li>
+              <li>flexibility treatment</li>
+              <li>reliable pricing</li>
+              <li>diagnose with technology</li>
+            </ul>
+
+            <button class="female-btn">Take An Appointment</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="review-doc-section">
+          <h4>Reviews</h4>
+          <h1>what our patients say?</h1>
         </div>
 
-       </div>
+        <div class="doctor-review-wrapper">
+          <div class="doctor-ronald gen-layout">
+            <div class="doctor-review-woman">
+              <img src="images/" alt="" />
+              <h5>Ronald Richards</h5>
+              <h5>1 Day Ago</h5>
+            </div>
 
-      </main>
+            <p>
+              lorem ipsum dolor sit amet, consecteur adipiscing sed do eiusmod
+              tempor incididunt.
+            </p>
+            <p>*****</p>
+          </div>
 
+          <div class="doctor-ronald gen-layout">
+            <div class="doctor-review-woman">
+              <img src="images/" alt="" />
+              <h5>Ronald Richards</h5>
+              <h5>1 Day Ago</h5>
+            </div>
 
+            <p>
+              lorem ipsum dolor sit amet, consecteur adipiscing sed do eiusmod
+              tempor incididunt.
+            </p>
+            <p>*****</p>
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <div class="discount-section">
+          <div class="discount-section-coloumn">
+            <h1>get 25% discount off, on your Book</h1>
+            <p>get your discount by appointment from 14 august 2024</p>
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="discount-button"
+            />
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <div class="section-last">
+          <div class="section-last-wrapper gen-layout">
+            <div class="section-last-gen">
+              <div class="gen">
+                <h1>Dcoto<span>r</span></h1>
+                <p>get our doctor tips to your inbox</p>
+                <button class="section-btn">Subscribe</button>
+              </div>
 
-     
+              <div>
+                <h1>Company info</h1>
+                <ul class="list">
+                  <li>services</li>
+                  <li>about us</li>
+                  <li>why choose us</li>
+                  <li>find a doctor</li>
+                  <li>conatct us</li>
+                </ul>
+              </div>
 
-        </nav>
-      </div>
-
-</body>
+              <div>
+                <h1>contact info</h1>
+                <ul class="list">
+                  <li>08109607458</li>
+                  <li>doctor@gmail.com</li>
+                  <li>www.doctor.com</li>
+                  <li><h2>follow us</h2></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
